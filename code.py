@@ -38,10 +38,6 @@ splash.append(inner_sprite)
 
 diameter_string = f"{diameter}mm"
 
-# Draw a label
-#text = "Hello World!"
-#text_area = label.Label(terminalio.FONT, text=text, color=0xFFFF00, x=28, y=28)
-#splash.append(text_area)
 adc = analogio.AnalogIn(board.GP28)
 
 # Draw the temperature value label
